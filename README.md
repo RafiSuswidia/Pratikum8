@@ -33,6 +33,9 @@ class Mahasiswa():
     def lihat(self):
         for i in range(len(data.nama)):
             print("|", i + 1, "  |", end="")
+            
+            ![Screenshot (68)](https://user-images.githubusercontent.com/115480539/206938118-7739e04e-ab64-429e-be41-1dbd89dae4e3.png)
+
             print('{0:<25}'.format(self.nama[i]), end="")
             print("|", self.nim[i], end="")
             print(" |", self.tugas[i], end="")
